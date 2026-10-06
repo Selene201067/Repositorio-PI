@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1">
+	<title>O Mago</title>
+
+	<style type="text/css">
+		body {
+			margin: 0px;
+			background-image: url(images/davy2.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			/*background-size: 100% 100%;*/
+			/*top left e top right = diagonal*/
+			/*background: linear-gradient( to top left, #ffffff, #ffc400, #ff004c, #ae00ff, #01e4d1, #00ff0d);*/
+		}
+
+		.alien{
+			display: inline-block;
+			transition: transform 10s;
+			animation: animacao1 2s;
+		}
+
+		.alien:hover{
+			transform: scale(2,2) rotate(360deg) skew(200deg,-25deg);
+		}
+
+		.wesker {
+			display: inline-block;
+			float: right;
+			transition: transform 2s;
+			animation: animacao1 2s;
+		}
+
+		.wesker:hover {
+			transform: scale(-1,-1) rotate(360deg);
+		}
+
+		.gta {
+			position: relative;
+			left: 350px;
+			display: inline-block;
+			transition: transform 2s;
+			/*animation: animacao1 2s;*/
+		}
+
+		/*@keyframes animacao1 {
+			from{
+				opacity: 0;
+				transform: scale(0) rotate(45deg);
+			}
+
+			to{
+				opacity: 1;
+				transform: scale(1) rotate(0deg);
+			}
+		}*/
+
+		.gta:hover {
+			transform: translate(0px, 50px);
+		}
+
+		nav {
+			background-color: black;
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;	
+			width: calc(100%-padding);	
+			transition: transform 2s;*/
+		}
+
+		nav:hpver{
+			transform: rotate(360deg);
+		}
+
+		nav a:link {
+			color: white;
+			text-decoration: none;
+		}
+
+		nav a:hover {
+			color: white;
+			text-decoration: underline;
+		}	
+
+		div {
+			width: 50%;
+			opacity: 0.5;
+			border-color: #00ff6a;
+			border-width: 10px;
+			border-radius: 30px;
+			/*border-top-left-radius:60px ;*/
+
+			/*opções: dotted, dashed, double, solid, groove, ridge, inset, outset*/
+
+			border-style: solid;
+
+			/*border-top-style: dotted;
+			border-top-color: green;
+
+			border-bottom-style: groove;
+			border-bottom-color: yellow;
+
+			border-left-style: outset;
+			border-left-color: red;
+
+			border-right-style: double;
+			border-right-color: blue;*/
+
+
+			margin-top:30px;
+			margin-left: auto;
+			margin-right: auto;
+
+			padding: 20px;
+			/*background-color: aqua;*/
+			background-image: url(images/davy.png);
+			background-repeat: repeat-x;
+			background-size: 20%;
+			box-shadow: 10px 5px 0px #00ff6a, -10px -10px 0px #00ff6a;
+			/*transition: transform 2s;*/
+			animation-name: rodar 2s;
+		}	
+
+		/*div:hover{
+			transform: skew(200deg,-25deg);
+		}*/
+
+		div h1 {
+			text-align: center;
+		}
+
+		div p {
+			text-align: justify;
+		}
+
+
+	</style>
+</head>
+<body>
+	<nav>
+    	<a href="https://youtube.com/@davajonas?feature=shared" target="_blank">Youtube || </a>    	
+    	<a href="https://www.instagram.com/odavyjones/" target="_blank">instagram</a>		
+	</nav>
+
+
+	<div>
+		<h1>História do Davy Jones</h1>
+		<p>Administrador de empresas, Davy Jones deixou o emprego formal em 2010 para se dedicar exclusivamente aos jogos.
+		 Nesta época, utilizava o canal "Estúdio Pirata". Mais tarde, começou a produzir vídeos para o canal "Gameplayrj",
+		 inicialmente sobre o jogo Grand Theft Auto V e depois com foco em comentários de notícias da indústria de jogos eletrônicos e da cultura pop.
+		<br><br>
+
+		<a class="fanboy" href="https://youtu.be/wK9_3Bu5atY?feature=shared">Saiba a diferença de um fã para um fanboy</a>
+	</div>
+
+		<a href="https://youtu.be/__UIwJS_r3w?si=4zqKwH2-fNwUtJkK" target="_blank"><img class="alien" src="images/alien-do-davy-jones.png" width="20%"></a>
+
+		<a href="https://youtu.be/CryEH7VONto?feature=shared" target="_blank"><img class="wesker" src="images/wesker.jpg" width="16%"></a>
+
+		<a href="https://youtu.be/Ah9eqJQfsNs?feature=shared" target="_blank"><img class="gta" src="images/gta.png" width="16%"></a>
+
+		
+
+</body>
+</html>
